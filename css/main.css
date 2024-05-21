@@ -1,0 +1,68 @@
+@import "./reset.css";
+
+@font-face {
+    font-family: "Poppins";
+    src: url(../fonts/Poppins-Regular.woff2) format("woff2");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: "Poppins";
+    src: url(../fonts/Poppins-Medium.woff2) format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(../fonts/Poppins-Bold.woff2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "DMSans";
+    src: url(../fonts/DMSans_18pt-Regular.woff2) format("woff2");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "DMSans";
+    src: url(../fonts/DMSans_36pt-Medium.woff2) format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "DMSans";
+    src: url(../fonts/DMSans_18pt-Bold.woff2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --font-family-base: "DMSans", sans-serif;
+    --font-family-accent: "Poppins", sans-serif;
+    --color-black:#171718;
+    --color-black-border: #26292D;
+    --color-white: #ffffff;
+    --color-blue: #5C62EC;
+
+    --color-background-black: var(--color-black);
+    --color-border-black: var(--color-black-border);
+    --color-header-text:var(--color-white);
+    --acent: var(--color-blue);
+}
+
+body {
+    font-family: var(--font-family-base);
+}
