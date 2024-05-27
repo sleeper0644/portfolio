@@ -361,3 +361,8 @@ a {
     color: var(--color-white);
 }
 
+/*==============================contacts=============================================================*/
+
+.content-list__item a {
+    color: var(--color-blue);
+}
