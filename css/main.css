@@ -302,6 +302,37 @@ a {
     position: relative;
     top: 1px;
 }
+
+/*=================================================================Skills============================================================================================================================*/
+
+.title-2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    line-height: 1.3;
+    font-weight: 700;
+
+}
+
+.content-list {
+    margin: 0 auto;
+    min-width: 570px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 40px;
+    
+}
+
+.content-list__item {
+    font-size:18px;
+    line-height: 1.3;
+}
+
+.content-list__item p:not(:last-child) {
+    margin-bottom: 0.5em;
+}
+
 /*==================================================================Footer===========================================================================================================================*/
 .footer {
     background-color: var(--color-background-black);
