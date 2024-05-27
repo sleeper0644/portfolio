@@ -65,10 +65,16 @@
     --container-padding-x: 15px;
 }
 /*general styles*/
+
+
+
 body {
     font-family: var(--font-family-base);
     letter-spacing: -0.5px;
     color: var(--color-black);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 a {
     text-decoration: none;
@@ -335,6 +341,7 @@ a {
 
 /*==================================================================Footer===========================================================================================================================*/
 .footer {
+    margin-top: 100px;
     background-color: var(--color-background-black);
     color: var(--color-white);
     display: flex;
