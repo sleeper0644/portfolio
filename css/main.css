@@ -86,6 +86,7 @@ a {
     margin: 0 auto;
     padding: 0 15px;
     max-width: calc(var(--container-width) + var(--container-padding-x)*2);
+
 }
 
 .logo,
@@ -415,4 +416,5 @@ a {
     .copyright {
         margin-top: 10px;
     }
-}
+
+  }
